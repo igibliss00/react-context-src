@@ -8,13 +8,15 @@ class App extends React.Component {
  
     render() {
         return (
-            <div className="ui container">
-                <LanguageStore>
-                    <LanguageSelector />
-                    <ColorContext.Provider value='red'>
-                        <UserCreate />
-                    </ColorContext.Provider>
-                </LanguageStore>    
+            <div className="ui stackable centered page grid">
+                <div className="column twelve wide">
+                    <LanguageStore>
+                        <LanguageSelector />
+                        <ColorContext.Provider value='red'>
+                            <UserCreate />
+                        </ColorContext.Provider>
+                    </LanguageStore>    
+                </div>
             </div>
         )
     }
