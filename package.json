@@ -2,7 +2,7 @@
   "name": "jsx",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://igibliss00.github.io/stream-app-react",
+  "homepage": "https://igibliss00.github.io/react-context",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.8.4",
